@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NEXUS</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+
+<div class="app">
+    {% block content %}{% endblock %}
+</div>
+
+<nav class="bottom-menu">
+    <img src="{% static 'information/clock.svg' %}" alt="">
+    <img src="{% static 'schedule/calendar.svg' %}" alt="">
+    <img src="{% static 'homework/book.svg' %}" alt="">
+    <img src="{% static 'menu/more.svg' %}" alt="">
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+  <!-- левая страница -->
+  <path d="M3 5h7
+           c1.5 0 2.5 1 2.5 2.5
+           V19
+           c-1.5-1-4-1-6-1H3z"/>
+
+  <!-- правая страница -->
+  <path d="M21 5h-7
+           c-1.5 0-2.5 1-2.5 2.5
+           V19
+           c1.5-1 4-1 6-1h3z"/>
+
+</svg>
